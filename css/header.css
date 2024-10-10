@@ -1,0 +1,202 @@
+@import url(customproperties.css);  
+.header{
+        grid-area: header;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: var(--fondo);
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+ }
+
+ /* Logo youtube */
+
+ .logoContainer{
+     
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+    
+    
+ }
+
+ .logoContainer__link {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--colorBlanco);
+ }
+  
+ .logoContainer__imagen{
+     
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+
+
+}
+
+.logoContainer__imagenContenedor .logoContainer__img:hover{
+    background-color: var(--colorSombra);
+    transition: 0.5s;
+ }
+ 
+ 
+ 
+ .logoContainer__imagenContenedor{
+    position: relative;
+    height: 25px;
+    width: 30px;
+ }
+ 
+  
+  
+ .logoContainer__img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+  }
+  
+
+  
+  .logoContainer__imagenContenedor .logoContainer__img:hover{
+     background-color: var(--colorSombra);
+     transition: 0.5s;
+  }
+  
+  
+  
+  .logoContainer__img{
+     position: relative;
+     height: 25px;
+     width: 30px;
+  }
+  
+  .logoContainer__titulo{
+     letter-spacing: -1px;
+      color: var(--colorBlanco);
+  
+  }
+  
+  
+  
+  .logoContainer__titulo{
+     font-size: 1.5rem;
+  }
+  
+
+  
+/* Parte de busqueda */
+  
+  .searchContainer{
+     
+     display: flex;
+     align-items: center;
+     gap: 6px;
+     flex: 0 1 658px;
+  }
+  
+  .searchContainer__formulario{
+       
+     position: relative;
+     width: 100%;
+     display: flex;  
+  }
+  
+  .searchContainer__barraBusqueda{
+     height: 40px;
+     width: 100%;
+     background-color: var(--colroFondoBarraBusqueda);
+     color: var(--colorBlancoClaro);
+     padding: 12px;
+     outline: none;
+     border: 1px solid rgba(var(--bordes-color));
+     border-radius: 10px  0px 0px 10px;
+  }
+  
+  .searchContainer__lupa , .searchContainer__microfono{
+     width: 40px;
+     min-width: 40px;
+     height: 40px;
+     background-color: var(--colorFondoIconos);
+     color: var(--colorBlanco);
+     font-size: 15px;
+     outline: none;
+     border: none;
+     border-radius: 0px  10px 10px 0px;
+     cursor: pointer;
+  }
+  
+.searchContainer__lupa:hover , .searchContainer__microfono:hover {
+     background-color: var(--colorSombra);
+     transition: 0.5s;
+  }
+  
+  
+  
+   .searchContainer__microfono{
+    
+     border-radius: 50%;
+     
+  }
+
+
+  /* Perfil de usuario */
+  
+  .profileContainer{
+     position: relative;
+     display: flex;
+     align-items: center;
+     gap: 25px;
+  }
+  
+  .profileContainer__icono{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 40px;
+     min-width: 40px;
+     height: 40px;
+     background-color: var(--colorFondoIconos);
+     color: var(--colorBlanco);
+     font-size: 15px;
+     outline: none;
+     border: none;
+     border-radius: 50%;
+     cursor: pointer;
+     text-decoration: none;
+  }
+  
+  
+  .profileContainer__icono:hover{
+     transition: 0.5s;
+     background-color: var(--colorSombra);
+  }
+  
+  
+  .profileContainer__box{
+     position: relative;
+     width: 35px;
+     height: 35px;
+     
+  }
+  
+  .profileContaier__imgPerfil{
+     border-radius: 50%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+  }

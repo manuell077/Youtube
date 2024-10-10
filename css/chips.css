@@ -1,0 +1,32 @@
+@import url('customproperties.css');
+
+/* Chips */
+.chips__wrapper{
+    max-width: calc(100vw - 240px);
+    display: flex;
+    overflow-x: scroll;
+    background-color: var(--colorFondoChips);
+    padding-left: 14px;
+    border-top: 1px solid var(--bordes-color);
+    border-bottom: 1px solid var(--bordes-color);
+    flex-wrap: nowrap;
+  }
+  
+  .chips__wrapper:hover::-webkit-scrollbar-thumb{
+    background-color: var(--bordes-color);
+  }
+  
+  
+  .chips__item{
+    margin: 12px 6px;
+    background-color: var(--colorFondoChipsItems);
+    padding: 6px 12px;
+    color: var(--letras-color);
+    cursor: pointer;
+    border-radius: var(--borde-redondeado);
+    white-space: nowrap;
+    transition: var(--tiempo-transicion);
+  }
+  .chips__item:hover{
+    background-color: var(--colorSombra);
+  }

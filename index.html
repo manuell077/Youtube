@@ -11,187 +11,191 @@
 />
 </head>
 <body>
+    <div class="pagina">
     <!-- Header -->
     <header class="header">
         <!-- Contenedor logo -->
-        <div class="logo-container">
+        <div class="logoContainer">
 
-        <a href="#" >
+        <a class="logoContainer__link" href="#" >
             <i class="ri-menu-2-line"></i>
         </a>
-        <div class="logo"> 
-            <div class="logo-img">   
-            <img src="img/logo.png" alt="logo">
+        
+        <div class="logoContainer__imagen"> 
+            <div class="logoContainer__imagenContenedor">   
+            <img class="logoContainer__img" src="img/logo.png" alt="logo">
         </div>
-            <h1>Youtube</h1>
+            <h1 class="logoContainer__titulo">Youtube</h1>
         </div>
        
     </div>
 
        <!-- Contenedor Busquedas -->
         
-       <div class="search-container">
-            <form action="">
-                <input type="text" placeholder="Buscar">
-                <button>
+       <div class="searchContainer">
+            <form class="searchContainer__formulario" action="">
+                <input class="searchContainer__barraBusqueda" type="text" placeholder="Buscar">
+                <button class="searchContainer__lupa">
                     <i class="ri-search-line"></i>
                 </button>
             </form>
-            <button>
+            <button class="searchContainer__microfono">
                 <i class="ri-mic-line"></i>
             </button>
        </div>
 
        <!-- Contenedor perfil -->
-        <div class="profile-container">
-            <a href="#">
+        <div class="profileContainer">
+            <a  class="profileContainer__icono"  href="#">
                 <i class="ri-video-add-line"></i>
                 
             </a>
-            <a href="#">
+            <a class="profileContainer__icono" href="#">
                 <i class="ri-notification-line"></i>
             </a>
 
-            <div class="profile-box">
-                <img src="img/john.jpg" alt="perfil">
+            <div class="profileContainer__box">
+                <img class="profileContaier__imgPerfil" src="img/john.jpg" alt="perfil">
             </div>
         </div>
     </header>
 
      
     <!-- Side bar  -->
-    <aside class="sidebar"></aside>
+    <aside class="sidebar">
      
-    <div class="sidebar-items">
-
-        <a href="" class="sidebar-item">
-          <i class="ri-home-5-line"></i><span>Home</span>
+    <div class="sidebar__items">
+        
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-home-5-line"></i><span class="sidebar__titulo">Home</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-compass-3-line"></i><span>Explore</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-compass-3-line"></i><span class="sidebar__titulo">Explore</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-wireless-charging-line"></i><span>Shorts</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-wireless-charging-line"></i><span class="sidebar__titulo">Shorts</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-rss-line"></i><span>Subscription</span>
-        </a>
-  
-        <hr>
-  
-        <a href="" class="sidebar-item">
-          <i class="ri-links-line"></i><span>Library</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-history-line"></i><span>History</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-video-line"></i></i><span>Your videos</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-time-line"></i><span>Watch videos</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-play-list-2-fill"></i></i><span>All videos</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-arrow-down-line"></i><span>Show more</span>
-        </a>
-        <hr>
-        <h4>MORE FROM YOUTUBE</h4>
-  
-        <a href="" class="sidebar-item">
-          <i class="ri-keyboard-box-line"></i><span>Gaming</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-live-line"></i><span>Live</span>
-        </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-award-line"></i><span>Sports</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-rss-line"></i><span class="sidebar__titulo">Subscription</span>
         </a>
   
-        <hr>
+        <hr class="sidebar__space">
   
-        <a href="" class="sidebar-item">
-          <i class="ri-settings-5-line"></i><span>Setting</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-links-line"></i><span class="sidebar__titulo">Library</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-flag-line"></i><span>Report history</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-history-line"></i><span class="sidebar__titulo">History</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-question-line"></i><span>Help</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-video-line"></i></i><span class="sidebar__titulo">Your videos</span>
         </a>
-        <a href="" class="sidebar-item">
-          <i class="ri-feedback-line"></i><span>Send feedback</span>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-time-line"></i><span class="sidebar__titulo">Watch videos</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-play-list-2-fill"></i></i><span class="sidebar__titulo">All videos</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-arrow-down-line"></i><span class="sidebar__titulo">Show more</span>
+        </a>
+        <hr class="sidebar__space">
+        <h4 class="sidebar__texto">MORE FROM YOUTUBE</h4>
+  
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-keyboard-box-line"></i><span class="sidebar__titulo">Gaming</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-live-line"></i><span class="sidebar__titulo">Live</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-award-line"></i><span class="sidebar__titulo">Sports</span>
+        </a>
+  
+        <hr class="sidebar__space">
+  
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-settings-5-line"></i><span class="sidebar__titulo">Setting</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-flag-line"></i><span class="sidebar__titulo">Report history</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-question-line"></i><span class="sidebar__titulo">Help</span>
+        </a>
+        <a href="" class="sidebar__item">
+          <i class="sidebar__icono ri-feedback-line"></i><span class="sidebar__titulo">Send feedback</span>
         </a>
     </div>
+</aside>
     <!-- Main -->
     <main class="content">
 
-        <div class="chips-wrapper">
+        <div class="chips__wrapper">
             <div class="chips">
               <p>All</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>HTML</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>CSS</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>Responsive desing</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>UI desing</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>JavaScript</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>Musica</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>React</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>UI/UX</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>Java</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>PHP</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>Node js</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>MySQL</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>Oracle</p>
             </div>
-            <div class="chips">
+            <div class="chips__item">
               <p>UML</p>
             </div>
           </div>
-         
-          <div class="video-container">
-            <div class="video-container-cover">
-                <div class="video-content">
-                    <a href="#" class="video-box">
-                        <img src="img/img-1.jpg" alt="video">
+
+         <!--Video 1  -->
+          <div class="videoContainer">
+            <div class="videoContainer__cover">
+                <div class="videoContainer__content">
+                    <a href="#" class="videoContainer__box">
+                        <img class="videoContainer__videoImg" src="img/img-1.jpg" alt="video">
                     </a>
-                    <div class="video-detail">
-                        <div class="chanel-logo">
-                            <img src="img/john.jpg" alt="logo">
+                    <div class="videoContainer__detail">
+                        <div class="videoContainer__chanel-logo">
+                            <img class="videoContainer__logoImg"src="img/john.jpg" alt="logo">
                         </div>
                         <div class="detail">
-                            <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                            <div class="chanel-name">Jhon Vanagandr</div>
-                            <div class="views-upload">
-                                <div class="views">28k views</div>
-                                <div class="upload">1 year ago</div>
+                            <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                            <div class="detail__chanel-name">Jhon Vanagandr</div>
+                            <div class="detail__views-upload">
+                                <div class="detail__views">28k views</div>
+                                <div class="detail__upload">1 year ago</div>
                                 
                             </div>
                         </div>
@@ -199,87 +203,94 @@
                 </div>
             </div>
            
-            <div class="video-container-cover">
-              <div class="video-content">
-                  <a href="#" class="video-box">
-                      <img src="img/img-2.jpg" alt="video">
+
+            <!-- Video 2 -->
+            <div class="videoContainer__cover">
+              <div class="videoContainer__content">
+                  <a href="#" class="videoContainer__box">
+                      <img class="videoContainer__videoImg" src="img/img-2.jpg" alt="video">
                   </a>
-                  <div class="video-detail">
-                      <div class="chanel-logo">
-                          <img src="img/john.jpg" alt="logo">
+                  <div class="videoContainer__detail">
+                      <div class="videoContainer__chanel-logo">
+                          <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
                       </div>
                       <div class="detail">
-                          <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                          <div class="chanel-name">Jhon Vanagandr</div>
-                          <div class="views-upload">
-                              <div class="views">28k views</div>
-                              <div class="upload">1 year ago</div>
+                          <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                          <div class="detail__chanel-name">Jhon Vanagandr</div>
+                          <div class="detail__views-upload">
+                              <div class="detail__views">28k views</div>
+                              <div class="detail__upload">1 year ago</div>
                               
                           </div>
                       </div>
                   </div>
               </div>
           </div>
-
-          <div class="video-container-cover">
-            <div class="video-content">
-                <a href="#" class="video-box">
-                    <img src="img/img-3.jpg" alt="video">
+               
+          <!-- Video 3 -->
+          <div class="videoContainer__cover">
+            <div class="videoContainer__content">
+                <a href="#" class="videoContainer__box">
+                    <img class="videoContainer__videoImg" src="img/img-3.jpg" alt="video">
                 </a>
-                <div class="video-detail">
-                    <div class="chanel-logo">
-                        <img src="img/john.jpg" alt="logo">
+                <div class="videoContainer__detail">
+                    <div class="videoContainer__chanel-logo">
+                        <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
                     </div>
                     <div class="detail">
-                        <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                        <div class="chanel-name">Jhon Vanagandr</div>
-                        <div class="views-upload">
-                            <div class="views">28k views</div>
-                            <div class="upload">1 year ago</div>
+                        <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                        <div class="detail__chanel-name">Jhon Vanagandr</div>
+                        <div class="detail__views-upload">
+                            <div class="detail__views">28k views</div>
+                            <div class="detail__upload">1 year ago</div>
                             
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-            
-        <div class="video-container-cover">
-          <div class="video-content">
-              <a href="#" class="video-box">
-                  <img src="img/img-4.jpg" alt="video">
+
+
+        <!-- Video 4 -->
+        <div class="videoContainer__cover">
+          <div class="videoContainer__content">
+              <a href="#" class="videoContainer__box">
+                  <img class="videoContainer__videoImg" src="img/img-4.jpg" alt="video">
               </a>
-              <div class="video-detail">
-                  <div class="chanel-logo">
-                      <img src="img/john.jpg" alt="logo">
+              <div class="videoContainer__detail">
+                  <div class="videoContainer__chanel-logo">
+                      <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
                   </div>
                   <div class="detail">
-                      <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                      <div class="chanel-name">Jhon Vanagandr</div>
-                      <div class="views-upload">
-                          <div class="views">28k views</div>
-                          <div class="upload">1 year ago</div>
+                      <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                      <div class="detail__chanel-name">Jhon Vanagandr</div>
+                      <div class="detail__views-upload">
+                          <div class="detail__views">28k views</div>
+                          <div class="detail__upload">1 year ago</div>
                           
                       </div>
                   </div>
               </div>
           </div>
       </div>
+      
 
-      <div class="video-container-cover">
-        <div class="video-content">
-            <a href="#" class="video-box">
-                <img src="img/img-5.jpg" alt="video">
+      <!-- Video 5 -->
+      <div class="videoContainer__cover">
+        <div class="videoContainer__content">
+            <a href="#" class="videoContainer__box">
+                <img class="videoContainer__videoImg" src="img/img-5.jpg" alt="video">
             </a>
-            <div class="video-detail">
-                <div class="chanel-logo">
-                    <img src="img/john.jpg" alt="logo">
+            <div class="videoContainer__detail">
+                <div class="videoContainer__chanel-logo">
+                    <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
                 </div>
                 <div class="detail">
-                    <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                    <div class="chanel-name">Jhon Vanagandr</div>
-                    <div class="views-upload">
-                        <div class="views">28k views</div>
-                        <div class="upload">1 year ago</div>
+                    <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                    <div class="detail__chanel-name">Jhon Vanagandr</div>
+                    <div class="detail__views-upload">
+                        <div class="detail__views">28k views</div>
+                        <div class="detail__upload">1 year ago</div>
                         
                     </div>
                 </div>
@@ -287,21 +298,23 @@
         </div>
     </div>
 
-    <div class="video-container-cover">
-      <div class="video-content">
-          <a href="#" class="video-box">
-              <img src="img/img-6.jpg" alt="video">
+
+     <!-- Video 6 -->
+     <div class="videoContainer__cover">
+      <div class="videoContainer__content">
+          <a href="#" class="videoContainer__box">
+              <img class="videoContainer__videoImg" src="img/img-6.jpg" alt="video">
           </a>
-          <div class="video-detail">
-              <div class="chanel-logo">
-                  <img src="img/john.jpg" alt="logo">
+          <div class="videoContainer__detail">
+              <div class="videoContainer__chanel-logo">
+                  <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
               </div>
               <div class="detail">
-                  <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                  <div class="chanel-name">Jhon Vanagandr</div>
-                  <div class="views-upload">
-                      <div class="views">28k views</div>
-                      <div class="upload">1 year ago</div>
+                  <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                  <div class="detail__chanel-name">Jhon Vanagandr</div>
+                  <div class="detail__views-upload">
+                      <div class="detail__views">28k views</div>
+                      <div class="detail__upload">1 year ago</div>
                       
                   </div>
               </div>
@@ -309,203 +322,36 @@
       </div>
   </div>
 
-  <div class="video-container-cover">
-    <div class="video-content">
-        <a href="#" class="video-box">
-            <img src="img/img-7.jpg" alt="video">
-        </a>
-        <div class="video-detail">
-            <div class="chanel-logo">
-                <img src="img/john.jpg" alt="logo">
-            </div>
-            <div class="detail">
-                <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-                <div class="chanel-name">Jhon Vanagandr</div>
-                <div class="views-upload">
-                    <div class="views">28k views</div>
-                    <div class="upload">1 year ago</div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-9.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
+     <!-- Video 7 -->
+     <div class="videoContainer__cover">
+      <div class="videoContainer__content">
+          <a href="#" class="videoContainer__box">
+              <img class="videoContainer__videoImg" src="img/img-7.jpg" alt="video">
+          </a>
+          <div class="videoContainer__detail">
+              <div class="videoContainer__chanel-logo">
+                  <img class="videoContainer__logoImg" src="img/john.jpg" alt="logo">
+              </div>
+              <div class="detail">
+                  <h3 class="detail__title">Clon Youtube Flexbox and grid css</h3>
+                  <div class="detail__chanel-name">Jhon Vanagandr</div>
+                  <div class="detail__views-upload">
+                      <div class="detail__views">28k views</div>
+                      <div class="detail__upload">1 year ago</div>
+                      
+                  </div>
               </div>
           </div>
       </div>
   </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-8.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-10.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-11.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-12.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-13.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-14.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
-<div class="video-container-cover">
-  <div class="video-content">
-      <a href="#" class="video-box">
-          <img src="img/img-15.jpg" alt="video">
-      </a>
-      <div class="video-detail">
-          <div class="chanel-logo">
-              <img src="img/john.jpg" alt="logo">
-          </div>
-          <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and grid css</h3>
-              <div class="chanel-name">Jhon Vanagandr</div>
-              <div class="views-upload">
-                  <div class="views">28k views</div>
-                  <div class="upload">1 year ago</div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 
 
 
@@ -523,7 +369,7 @@
     </main>
 
 
-    
+</div>
 
 </body>
 </html>

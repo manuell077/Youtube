@@ -1,0 +1,23 @@
+:root{
+    --fondo: #212121;
+    --letras-color: #cfcfcf;
+    --borde-ligero-color: #303030;
+    --borde-ligero: 1px solid var(--borde-ligero-color);
+    --bordes-color: rgba(255,255,255,0.15);
+    --azul: #1c62b9;
+    --tamaño-iconos: 1.2rem;
+    --transparencia: #353535;
+    --tamaño-titulo-logo: 1.5rem;
+    --tamaño-parrafos:1rem;
+    --separacion:6px;
+    --tiempo-transicion: 0.5s;
+    --letras-color-gris:#aaa;
+    --colorSombra:#494949;
+    --colorBlanco:#fff;
+    --colroFondoBarraBusqueda:#121212;
+    --colorBlancoClaro:#f2f2f2;
+    --colorFondoIconos:#313131;
+    --colorFondoChips: #181818;
+    --colorFondoChipsItems:#373737;
+    
+  }

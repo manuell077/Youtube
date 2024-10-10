@@ -1,0 +1,52 @@
+@import url('customproperties.css');
+
+/* Sidebar */
+.sidebar{
+    grid-area: sidebar;
+    background-color: var(--fondo);
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  .sidebar:hover::-webkit-scrollbar-thumb{
+    background-color: var(--bordes-color);
+  }
+  
+  .sidebar__items{
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+  }
+  
+  .sidebar__item{
+    display: flex;
+    text-decoration: none;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: var(--borde-redondeado);
+    transition: var(--tiempo-transicion);
+    align-items: center;
+    color: var(--letras-color);
+  }
+  
+  .sidebar__icono{
+    margin: 0 24px;
+    font-size: var(--tamaño-iconos);
+  }
+  .sidebar__item:hover{
+    background-color: var(--transparencia);
+  }
+   
+   .sidebar__texto{
+     color: var(--letras-color-gris);
+     display: flex;
+     justify-content: center;
+     margin: 5px 0;
+     font-size: var(--tamaño-parrafos);
+   }
+
+   .sidebar__space{
+    margin: 10px 0;
+    border: 0.5px solid var(--bordes-color);
+    border-radius: 12px;
+  }
